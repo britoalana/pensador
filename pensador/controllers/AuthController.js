@@ -83,7 +83,7 @@ module.exports = class AuthController {
         response.redirect("/");
       });
     } catch (error) {
-      console.logo(error);
+      console.log(error);
     }
   }
 
